@@ -1,0 +1,26 @@
+# Environments
+.env
+.venv
+venv/
+env/
+
+# GCP/AWS credentials
+gcp-key.json
+.credentials/
+*.pem
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.tox/
+.nox/
+
+# Data files
+*.csv
+*.json
+
+# Streamlit
+.streamlit/secrets.toml
